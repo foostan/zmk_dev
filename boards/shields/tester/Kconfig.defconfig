@@ -22,4 +22,10 @@ if SHIELD_TESTER_DONGLE || SHIELD_TESTER_LEFT
 config ZMK_SPLIT
     default y
 
+config ZMK_BLE
+    def_bool n
+
+config SETTINGS
+    def_bool n
+
 endif
