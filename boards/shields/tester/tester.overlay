@@ -1,10 +1,18 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include <physical_layouts.dtsi>
+#include "tester-layouts.dtsi"
+
+&physical_layout0 {
+    transform = <&transform0>;
+};
+
+&physical_layout1 {
+    transform = <&transform0>;
+};
 
 / {
     chosen {
         zmk,kscan = &kscan0;
-        zmk,physical-layout = &default_layout;
+        zmk,physical-layout = &physical_layout0;
     };
 
     kscan0: kscan {
@@ -27,37 +35,7 @@
             ;
     };
 
-    tester_position_map {
-        compatible = "zmk,physical-layout-position-map";
-        complete;
-
-        pinout_map: pinout_positions {
-            physical-layout = <&physical_layout0>;
-            positions = <0 1 2 3 4 5 6 7 8 9 10>;
-        };
-    };
-
-    default_layout: default_layout {
-        compatible = "zmk,physical-layout";
-        display-name = "XIAO Pinout";
-
-        // Map key positions to the XIAO pinout.
-        keys  //                     w   h    x    y    rot   rx   ry
-            = <&key_physical_attrs 100 100    0    0      0    0    0>
-            , <&key_physical_attrs 100 100    0  100      0    0    0>
-            , <&key_physical_attrs 100 100    0  200      0    0    0>
-            , <&key_physical_attrs 100 100    0  300      0    0    0>
-            , <&key_physical_attrs 100 100    0  400      0    0    0>
-            , <&key_physical_attrs 100 100    0  500      0    0    0>
-            , <&key_physical_attrs 100 100    0  600      0    0    0>
-            , <&key_physical_attrs 100 100  600  600      0    0    0>
-            , <&key_physical_attrs 100 100  600  500      0    0    0>
-            , <&key_physical_attrs 100 100  600  400      0    0    0>
-            , <&key_physical_attrs 100 100  600  300      0    0    0>
-            ;
-    };
-
-    default_transform: keymap_transform {
+    transform0: keymap_transform {
         compatible = "zmk,matrix-transform";
         columns = <11>;
         rows = <1>;
