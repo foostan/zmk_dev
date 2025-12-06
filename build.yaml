@@ -23,8 +23,9 @@ include:
     shield: tester_dongle dongle_screen
     artifact-name: dongle-screen
   - board: seeeduino_xiao_ble
-    shield: tester
+    shield: tester_left
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
-    artifact-name: tester
+    artifact-name: tester-left
   - board: seeeduino_xiao_ble
     shield: settings_reset
+    artifact-name: reset
