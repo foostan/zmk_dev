@@ -20,12 +20,11 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: tester_dongle dongle_screen
-    artifact-name: dongle-screen
+    shield: tester_dongle prospector_adapter
+    artifact-name: tester-dongle
   - board: seeeduino_xiao_ble
     shield: tester_left
-    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
     artifact-name: tester-left
   - board: seeeduino_xiao_ble
     shield: settings_reset
-    artifact-name: reset
+    artifact-name: tester-reset
