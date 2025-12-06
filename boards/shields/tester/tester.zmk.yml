@@ -6,4 +6,5 @@ requires: [seeed_xiao]
 features:
   - keys
 siblings:
+  - tester_dongle
   - tester_left
