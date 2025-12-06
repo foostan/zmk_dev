@@ -1,0 +1,19 @@
+if SHIELD_TESTER_DONGLE
+
+config ZMK_KEYBOARD_NAME
+    default "ZMK Tester"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
+    default 1
+
+endif
+
+if SHIELD_TESTER_DONGLE || SHIELD_TESTER
+
+config ZMK_SPLIT
+    default y
+
+endif

@@ -1,0 +1,5 @@
+config SHIELD_TESTER_DONGLE
+    def_bool $(shields_list_contains,tester_dongle)
+
+config SHIELD_TESTER
+    def_bool $(shields_list_contains,tester)
