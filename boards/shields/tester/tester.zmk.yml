@@ -5,6 +5,6 @@ type: shield
 requires: [seeed_xiao]
 features:
   - keys
+  - studio
 siblings:
-  - tester_dongle
   - tester
