@@ -20,6 +20,4 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: tester_xiao
-  - board: seeeduino_xiao_ble
-    shield: tester_xiao_dongle prospector_adapter
+    shield: tester_xiao prospector_adapter
