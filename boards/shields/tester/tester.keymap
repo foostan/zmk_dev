@@ -1,14 +1,18 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
+#define BASE 0
+#define RAISE 1
+#define LOWER 2
+
 / {
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             display-name = "Base";
-            bindings = <&kp Q
-                        &kp W
+            bindings = <&mo RAISE
+                        &mo LOWER
                         &kp E
                         &kp R
                         &kp T
@@ -17,7 +21,39 @@
                         &kp I
                         &kp O
                         &kp P
-                        &kp L>;
+                        &kp L
+                        >;
+        };
+
+        raise_layer {
+            display-name = "Raise";
+            bindings = <&kp A
+                        &kp S
+                        &kp D
+                        &kp F
+                        &kp G
+                        &kp H
+                        &kp J
+                        &kp K
+                        &kp L
+                        &kp ;
+                        &kp '
+                        >;
+        };
+        lower_layer {
+            display-name = "Lower";
+            bindings = <&kp N1
+                        &kp N2
+                        &kp N3
+                        &kp N4
+                        &kp N5
+                        &kp N6
+                        &kp N7
+                        &kp N8
+                        &kp N9
+                        &kp N0
+                        &kp BSPC
+                        >;
         };
     };
 };

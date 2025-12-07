@@ -6,9 +6,6 @@
 
 #include <physical_layouts.dtsi>
 
-// The tester might not have any physical keys at all, so these
-// physical layouts are pretty much imaginary.
-
 / {
     tester_position_map {
         compatible = "zmk,physical-layout-position-map";
