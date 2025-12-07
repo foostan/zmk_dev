@@ -1,0 +1,9 @@
+file_format: "1"
+id: hashigaki
+name: Hashigaki
+type: shield
+requires: [seeed_xiao]
+features:
+  - keys
+siblings:
+  - hashigaki

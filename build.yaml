@@ -20,11 +20,14 @@
 ---
 include:
   - board: seeeduino_xiao_ble
+    shield: settings_reset
+    artifact-name: tester-reset
+  - board: seeeduino_xiao_ble
     shield: tester_dongle prospector_adapter
     artifact-name: tester-dongle
   - board: seeeduino_xiao_ble
     shield: tester_left
     artifact-name: tester-left
   - board: seeeduino_xiao_ble
-    shield: settings_reset
-    artifact-name: tester-reset
+    shield: hashigaki
+    artifact-name: hashigaki

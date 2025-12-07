@@ -1,0 +1,6 @@
+if SHIELD_HASHIGAKI
+
+config ZMK_KEYBOARD_NAME
+    default "Hashigaki"
+
+endif
