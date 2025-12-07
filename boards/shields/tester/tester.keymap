@@ -21,10 +21,8 @@
                         &kp I
                         &kp O
                         &kp P
-                        &kp L
-                        >;
+                        &kp L>;
         };
-
         raise_layer {
             display-name = "Raise";
             bindings = <&kp A
@@ -37,8 +35,7 @@
                         &kp K
                         &kp L
                         &kp ;
-                        &kp '
-                        >;
+                        &kp '>;
         };
         lower_layer {
             display-name = "Lower";
@@ -52,8 +49,7 @@
                         &kp N8
                         &kp N9
                         &kp N0
-                        &kp BSPC
-                        >;
+                        &kp BSPC>;
         };
     };
 };
