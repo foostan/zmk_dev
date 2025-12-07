@@ -9,12 +9,6 @@ config ZMK_SPLIT_ROLE_CENTRAL
 config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
     default 1
 
-config BT_MAX_CONN
-    default 7
-
-config BT_MAX_PAIRED
-    default 7
-
 endif
 
 if SHIELD_TESTER_DONGLE || SHIELD_TESTER_LEFT

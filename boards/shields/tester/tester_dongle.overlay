@@ -2,11 +2,7 @@
 #include "tester-layouts.dtsi"
 
 &physical_layout0 {
-    transform = <&transform0>;
-};
-
-&physical_layout1 {
-    transform = <&transform0>;
+    transform = <&default_transform>;
 };
 
 / {
@@ -22,7 +18,7 @@
       events = <0>;
    };
 
-   transform0: keymap_transform {
+   default_transform: keymap_transform_0 {
       compatible = "zmk,matrix-transform";
       columns = <11>;
       rows = <1>;
