@@ -34,8 +34,8 @@
                         &kp J
                         &kp K
                         &kp L
-                        &kp ;
-                        &kp '>;
+                        &kp BACKSLASH
+                        &kp SQT>;
         };
         lower_layer {
             display-name = "Lower";
