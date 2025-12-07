@@ -19,18 +19,9 @@
                         &kp G
                         &mo RAISE
                         &kp SPACE
-                        &kp SPACE
-                        &kp SPACE
-                        &kp SPACE
-                        &kp SPACE
-                        &kp SPACE
                         &mo LOWER
                         &kp H
                         &kp J
-                        &kp K
-                        &kp L
-                        &kp SEMI
-                        &kp ENTER
                         >;
         };
         raise_layer {
@@ -43,18 +34,9 @@
                         &kp G
                         &mo RAISE
                         &kp SPACE
-                        &kp SPACE
-                        &kp SPACE
-                        &kp SPACE
-                        &kp SPACE
-                        &kp SPACE
                         &mo LOWER
                         &kp H
                         &kp J
-                        &kp K
-                        &kp L
-                        &kp SEMI
-                        &kp ENTER
                         >;
         };
         lower_layer {
@@ -67,18 +49,9 @@
                         &kp G
                         &mo RAISE
                         &kp SPACE
-                        &kp SPACE
-                        &kp SPACE
-                        &kp SPACE
-                        &kp SPACE
-                        &kp SPACE
                         &mo LOWER
                         &kp H
                         &kp J
-                        &kp K
-                        &kp L
-                        &kp SEMI
-                        &kp ENTER
                         >;
         };
     };

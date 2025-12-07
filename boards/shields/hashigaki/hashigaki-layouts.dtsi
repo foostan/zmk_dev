@@ -7,7 +7,7 @@
 
         pinout_map: pinout_positions {
             physical-layout = <&physical_layout0>;
-            positions = <0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19>;
+            positions = <0 1 2 3 4 5 6 7 8 9 10>;
         };
     };
 
@@ -28,15 +28,6 @@
             , <&key_physical_attrs 100 100  600  500      0    0    0>
             , <&key_physical_attrs 100 100  600  400      0    0    0>
             , <&key_physical_attrs 100 100  600  300      0    0    0>
-            , <&key_physical_attrs 100 100    0   50      0    0    0>
-            , <&key_physical_attrs 100 100    0  150      0    0    0>
-            , <&key_physical_attrs 100 100    0  250      0    0    0>
-            , <&key_physical_attrs 100 100    0  350      0    0    0>
-            , <&key_physical_attrs 100 100    0  450      0    0    0>
-            , <&key_physical_attrs 100 100    0  550      0    0    0>
-            , <&key_physical_attrs 100 100  600  550      0    0    0>
-            , <&key_physical_attrs 100 100  600  450      0    0    0>
-            , <&key_physical_attrs 100 100  600  350      0    0    0>
             ;
     };
 };
